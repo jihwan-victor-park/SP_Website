@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import { useState } from "react";
+import { useState } from 'react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
   });
   const [submitted, setSubmitted] = useState(false);
 
@@ -15,24 +15,24 @@ export default function Contact() {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
-        method: "POST",
+      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
       });
 
       if (response.ok) {
         setSubmitted(true);
-        setFormData({ name: "", email: "", phone: "", message: "" });
+        setFormData({ name: '', email: '', phone: '', message: '' });
         setTimeout(() => setSubmitted(false), 5000);
       } else {
-        alert("Failed to send message. Please try again.");
+        alert('Failed to send message. Please try again.');
       }
     } catch (error) {
-      console.error("Error submitting form:", error);
-      alert("Failed to send message. Please try again.");
+      console.error('Error submitting form:', error);
+      alert('Failed to send message. Please try again.');
     }
   };
 
@@ -55,8 +55,9 @@ export default function Contact() {
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-gold to-yellow-500 mx-auto mb-6 shadow-lg shadow-gold/50"></div>
             <p className="text-xl text-gray-300">
-              Ready to transform your college application journey? Contact us today
-              and we&apos;ll reach out to discuss how we can help you achieve your goals.
+              Ready to transform your college application journey? Contact us
+              today and we will reach out to discuss how we can help you achieve
+              your goals.
             </p>
           </div>
 
@@ -143,10 +144,7 @@ export default function Contact() {
                 />
               </div>
 
-              <button
-                type="submit"
-                className="w-full btn-primary text-lg py-4"
-              >
+              <button type="submit" className="w-full btn-primary text-lg py-4">
                 Send Message
               </button>
             </form>
@@ -157,22 +155,18 @@ export default function Contact() {
               <div className="text-3xl mb-3">📧</div>
               <h3 className="font-semibold text-gold mb-2">Email</h3>
               <p className="text-gray-300 text-sm">
-                We&apos;ll respond within 24 hours
+                We will respond within 24 hours
               </p>
             </div>
             <div className="p-6 bg-gradient-to-br from-dark-navy to-dark-blue rounded-xl shadow-2xl border border-dark-blue hover:shadow-gold/20 transition-all">
               <div className="text-3xl mb-3">🎯</div>
               <h3 className="font-semibold text-gold mb-2">Expert Guidance</h3>
-              <p className="text-gray-300 text-sm">
-                Personalized consultation
-              </p>
+              <p className="text-gray-300 text-sm">Personalized consultation</p>
             </div>
             <div className="p-6 bg-gradient-to-br from-dark-navy to-dark-blue rounded-xl shadow-2xl border border-dark-blue hover:shadow-gold/20 transition-all">
               <div className="text-3xl mb-3">✨</div>
               <h3 className="font-semibold text-gold mb-2">Results</h3>
-              <p className="text-gray-300 text-sm">
-                Proven success record
-              </p>
+              <p className="text-gray-300 text-sm">Proven success record</p>
             </div>
           </div>
         </div>

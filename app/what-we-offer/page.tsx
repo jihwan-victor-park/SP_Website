@@ -1,71 +1,71 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function WhatWeOffer() {
   const offerings = [
     {
-      title: "Comprehensive Profile Assessment",
+      title: 'Comprehensive Profile Assessment',
       description:
-        "We conduct an in-depth analysis of your academic achievements, extracurricular activities, and personal experiences to identify your unique strengths and competitive advantages.",
+        'We conduct an in-depth analysis of your academic achievements, extracurricular activities, and personal experiences to identify your unique strengths and competitive advantages.',
       features: [
-        "Detailed academic record evaluation",
-        "Extracurricular activity analysis",
-        "Personal strength identification",
-        "Competitive positioning strategy",
+        'Detailed academic record evaluation',
+        'Extracurricular activity analysis',
+        'Personal strength identification',
+        'Competitive positioning strategy',
       ],
     },
     {
-      title: "Persona & Story Development",
+      title: 'Persona & Story Development',
       description:
-        "Through intensive collaborative sessions, we craft a compelling narrative that authentically represents who you are while resonating with admissions committees.",
+        'Through intensive collaborative sessions, we craft a compelling narrative that authentically represents who you are while resonating with admissions committees.',
       features: [
-        "Weekly Zoom consultation sessions",
-        "Personal brand development",
-        "Narrative arc construction",
-        "Authentic voice cultivation",
+        'Weekly Zoom consultation sessions',
+        'Personal brand development',
+        'Narrative arc construction',
+        'Authentic voice cultivation',
       ],
     },
     {
-      title: "Essay Writing & Editing",
+      title: 'Essay Writing & Editing',
       description:
-        "From brainstorming to final polish, we guide you through every stage of essay development, ensuring each piece showcases your unique perspective and writing excellence.",
+        'From brainstorming to final polish, we guide you through every stage of essay development, ensuring each piece showcases your unique perspective and writing excellence.',
       features: [
-        "Common App essay development",
-        "Supplemental essay strategies",
-        "Multiple revision rounds",
-        "Line-by-line editing feedback",
+        'Common App essay development',
+        'Supplemental essay strategies',
+        'Multiple revision rounds',
+        'Line-by-line editing feedback',
       ],
     },
     {
-      title: "Strategic School Selection",
+      title: 'Strategic School Selection',
       description:
-        "We help you build a balanced college list that aligns with your goals, maximizes your chances of admission, and ensures you'll thrive academically and personally.",
+        'We help you build a balanced college list that aligns with your goals, maximizes your chances of admission, and ensures you will thrive academically and personally.',
       features: [
-        "Reach, target, and safety school identification",
-        "Program-specific guidance",
-        "Scholarship opportunity research",
-        "Fit assessment and recommendations",
+        'Reach, target, and safety school identification',
+        'Program-specific guidance',
+        'Scholarship opportunity research',
+        'Fit assessment and recommendations',
       ],
     },
     {
-      title: "Application Strategy & Timeline",
+      title: 'Application Strategy & Timeline',
       description:
-        "Stay on track with a customized timeline that ensures every component of your application receives proper attention and is submitted on time.",
+        'Stay on track with a customized timeline that ensures every component of your application receives proper attention and is submitted on time.',
       features: [
-        "Personalized application calendar",
-        "Deadline management",
-        "Priority task identification",
-        "Progress monitoring and accountability",
+        'Personalized application calendar',
+        'Deadline management',
+        'Priority task identification',
+        'Progress monitoring and accountability',
       ],
     },
     {
-      title: "Interview Preparation",
+      title: 'Interview Preparation',
       description:
-        "Build confidence and polish your presentation skills with mock interviews, feedback sessions, and proven strategies for showcasing your best self.",
+        'Build confidence and polish your presentation skills with mock interviews, feedback sessions, and proven strategies for showcasing your best self.',
       features: [
-        "Mock interview sessions",
-        "Question and answer preparation",
-        "Body language and presentation coaching",
-        "School-specific interview strategies",
+        'Mock interview sessions',
+        'Question and answer preparation',
+        'Body language and presentation coaching',
+        'School-specific interview strategies',
       ],
     },
   ];
@@ -80,10 +80,10 @@ export default function WhatWeOffer() {
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-gold to-yellow-500 mx-auto mb-6 shadow-lg shadow-gold/50"></div>
           <p className="text-xl text-gray-300 leading-relaxed">
-            Comprehensive college application consulting services designed to showcase
-            your unique story and maximize your admission potential. Our proven
-            methodology combines strategic planning, personalized guidance, and
-            meticulous attention to detail.
+            Comprehensive college application consulting services designed to
+            showcase your unique story and maximize your admission potential.
+            Our proven methodology combines strategic planning, personalized
+            guidance, and meticulous attention to detail.
           </p>
         </div>
 
@@ -104,8 +104,8 @@ export default function WhatWeOffer() {
                   Strategic Planning
                 </h3>
                 <p className="text-gray-300">
-                  Initial consultations, profile assessment, and development of your
-                  personalized application strategy.
+                  Initial consultations, profile assessment, and development of
+                  your personalized application strategy.
                 </p>
               </div>
             </div>
@@ -121,8 +121,9 @@ export default function WhatWeOffer() {
                   Persona Development
                 </h3>
                 <p className="text-gray-300">
-                  Intensive sessions to craft your unique narrative, identify your
-                  personal brand, and develop compelling storylines for your essays.
+                  Intensive sessions to craft your unique narrative, identify
+                  your personal brand, and develop compelling storylines for
+                  your essays.
                 </p>
               </div>
             </div>
@@ -138,8 +139,8 @@ export default function WhatWeOffer() {
                   Continuous Editing & Refinement
                 </h3>
                 <p className="text-gray-300">
-                  Constant editing support, multiple revision rounds, and polish of all
-                  application materials to perfection.
+                  Constant editing support, multiple revision rounds, and polish
+                  of all application materials to perfection.
                 </p>
               </div>
             </div>
@@ -177,7 +178,7 @@ export default function WhatWeOffer() {
             Ready to Start Your Journey?
           </h2>
           <p className="text-xl mb-8 text-gray-200">
-            Let&apos;s work together to create an application that stands out
+            Work together to create an application that stands out
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/pricing" className="btn-secondary text-lg">
