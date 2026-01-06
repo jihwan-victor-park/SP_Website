@@ -43,7 +43,6 @@ export default function Services() {
             key={index}
             className="bg-gradient-to-br from-dark-navy to-dark-blue rounded-2xl p-8 shadow-2xl hover:shadow-gold/20 transition-all duration-300 transform hover:-translate-y-2 border-t-4 border-gold"
           >
-            <div className="text-5xl mb-4 text-center">{service.icon}</div>
             <div className="text-sm text-gold font-semibold mb-2 text-center">
               {service.phase}
             </div>
