@@ -56,14 +56,14 @@ export default function Contact() {
             <div className="w-24 h-1 bg-gradient-to-r from-gold to-yellow-500 mx-auto mb-6 shadow-lg shadow-gold/50"></div>
             <p className="text-xl text-gray-300">
               Ready to transform your college application journey? Contact us today
-              and we'll reach out to discuss how we can help you achieve your goals.
+              and we&apos;ll reach out to discuss how we can help you achieve your goals.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-dark-navy to-dark-blue rounded-2xl shadow-2xl p-8 md:p-12 border border-dark-blue">
             {submitted && (
               <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
-                Thank you for your message! We'll get back to you soon.
+                Thank you for your message! We&apos;ll get back to you soon.
               </div>
             )}
 
@@ -157,7 +157,7 @@ export default function Contact() {
               <div className="text-3xl mb-3">📧</div>
               <h3 className="font-semibold text-gold mb-2">Email</h3>
               <p className="text-gray-300 text-sm">
-                We'll respond within 24 hours
+                We&apos;ll respond within 24 hours
               </p>
             </div>
             <div className="p-6 bg-gradient-to-br from-dark-navy to-dark-blue rounded-xl shadow-2xl border border-dark-blue hover:shadow-gold/20 transition-all">

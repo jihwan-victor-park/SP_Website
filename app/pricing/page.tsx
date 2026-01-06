@@ -159,7 +159,7 @@ export default function Pricing() {
               Have Questions About Pricing?
             </h2>
             <p className="text-lg mb-6 text-gray-200">
-              We're happy to discuss our packages and help you find the right
+              We&apos;re happy to discuss our packages and help you find the right
               fit for your needs
             </p>
             <Link

@@ -177,7 +177,7 @@ export default function WhatWeOffer() {
             Ready to Start Your Journey?
           </h2>
           <p className="text-xl mb-8 text-gray-200">
-            Let's work together to create an application that stands out
+            Let&apos;s work together to create an application that stands out
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/pricing" className="btn-secondary text-lg">
